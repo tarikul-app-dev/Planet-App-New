@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/login_background"
+    tools:context="limited.it.planet.smsappnew.activity.MainActivity">
+    <android.support.design.widget.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar_planet_app"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/AppTheme.PopupOverlay"
+            >
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                >
+                <!--<TextView-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="PlanetApp"-->
+                <!--android:textSize="20dp"-->
+                <!--android:layout_marginTop="10dp"-->
+                <!--/>-->
+                <!--<Button-->
+                    <!--android:id="@+id/btn_campaigns"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Campaigns"-->
+                    <!--android:textSize="15dp"-->
+                    <!--android:layout_alignParentRight="true"-->
+                    <!--/>-->
+
+            </RelativeLayout>
+
+
+        </android.support.v7.widget.Toolbar>
+
+    </android.support.design.widget.AppBarLayout>
+    <!--<ScrollView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:orientation="vertical"-->
+            <!--&gt;-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_marginTop="05dp"-->
+        <!--&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="150dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:background="#EFF0F1"-->
+            <!--android:gravity="center"-->
+            <!--&gt;-->
+            <!--<Button-->
+                <!--android:id="@+id/btn_login"-->
+                <!--android:layout_width="130dp"-->
+                <!--android:layout_height="130dp"-->
+                <!--android:text="Login Page"-->
+                <!--android:layout_marginLeft="0dp"-->
+                <!--android:background="#009688"-->
+                <!--android:textColor="#fff"-->
+
+                <!--/>-->
+            <!--<Button-->
+                <!--android:id="@+id/btn_campaigns"-->
+                <!--android:layout_width="130dp"-->
+                <!--android:layout_height="130dp"-->
+                <!--android:text="Campaigns"-->
+                <!--android:layout_marginLeft="10dp"-->
+                <!--android:background="#009688"-->
+                <!--android:textColor="#fff"-->
+
+                <!--/>-->
+
+
+        <!--</LinearLayout>-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="170dp"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:layout_marginLeft="10dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="#EFF0F1"-->
+            <!--android:gravity="center"-->
+            <!--&gt;-->
+            <!--<Button-->
+                <!--android:id="@+id/btn_my_account"-->
+                <!--android:layout_width="130dp"-->
+                <!--android:layout_height="130dp"-->
+                <!--android:text="My Account"-->
+
+                <!--android:background="#009688"-->
+                <!--android:textColor="#fff"-->
+
+                <!--/>-->
+
+            <!--<Button-->
+                <!--android:id="@+id/btn_my_profile"-->
+                <!--android:layout_width="130dp"-->
+                <!--android:layout_height="130dp"-->
+                <!--android:text="My Profile"-->
+                <!--android:layout_marginLeft="10dp"-->
+
+                <!--android:background="#009688"-->
+                <!--android:textColor="#fff"-->
+
+                <!--/>-->
+
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="170dp"-->
+        <!--android:orientation="horizontal"-->
+        <!--android:layout_marginLeft="10dp"-->
+        <!--android:layout_marginTop="10dp"-->
+        <!--android:background="#EFF0F1"-->
+        <!--&gt;-->
+
+        <!--<Button-->
+            <!--android:id="@+id/btn_sms_length_checker"-->
+            <!--android:layout_width="130dp"-->
+            <!--android:layout_height="130dp"-->
+            <!--android:text="SMS Length Checker"-->
+            <!--android:layout_marginLeft="38dp"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:background="#009688"-->
+            <!--android:textColor="#fff"-->
+            <!--/>-->
+<!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</ScrollView>-->
+
+    <GridView
+        android:id="@+id/btn_gridview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:horizontalSpacing="10dp"
+        android:verticalSpacing="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        >
+
+    </GridView>
+
+</LinearLayout>

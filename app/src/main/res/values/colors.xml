@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#34495e</color>
+    <color name="colorPrimaryDark">#34495e</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="btn_color">#34495e</color>
+    <color name="colorTransparent">#00000000</color>
+    <color name="colorOverlay">#cc3F51B5</color>
+    <color name="cell_background_color">#ffffff</color>
+
+    <color name="color_dashboard">#FFAB40</color>
+    <color name="color_broadcast">#2E7D32</color>
+    <color name="color_people">#9C27B0</color>
+    <color name="color_report">#546E7A</color>
+    <color name="color_logs">#66BB6A</color>
+    <color name="color_help">#4267B2</color>
+    <color name="color_account">#4E5975</color>
+    <color name="color_settings">#8D3F7B</color>
+    <color name="color_top_up">#265A88</color>
+    <color name="color_sms_check">#0366D6</color>
+</resources>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="limited.it.planet.smsappnew">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_planet"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="limited.it.planet.smsappnew.activity.SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="limited.it.planet.smsappnew.activity.LoginActivity"
+            android:label="" />
+        <activity
+            android:name="limited.it.planet.smsappnew.activity.MyAccountActivity"
+            android:label="" />
+        <activity
+            android:name="limited.it.planet.smsappnew.activity.MyProfileActivity"
+            android:label="" />
+        <activity
+            android:name="limited.it.planet.smsappnew.activity.SMSLengthCheckerActivity"
+            android:label="" />
+        <activity android:name="limited.it.planet.smsappnew.activity.AllReportActivity" />
+        <activity android:name="limited.it.planet.smsappnew.activity.PeopleActivity" />
+        <activity android:name="limited.it.planet.smsappnew.activity.AllCampaignActivity" />
+        <activity android:name="limited.it.planet.smsappnew.activity.NewCampActivity" />
+        <activity android:name="limited.it.planet.smsappnew.activity.AccountDashboard" />
+        <activity android:name="limited.it.planet.smsappnew.activity.AllAccountsActivity" />
+        <activity android:name="limited.it.planet.smsappnew.activity.ReportDashboard" />
+        <activity android:name="limited.it.planet.smsappnew.activity.LogsReportActivity" />
+        <activity android:name="limited.it.planet.smsappnew.activity.MainActivity" />
+        <activity android:name="limited.it.planet.smsappnew.activity.DashboardActivity" />
+        <activity android:name="limited.it.planet.smsappnew.activity.TopUpActivity"  android:windowSoftInputMode="stateHidden"></activity>
+    </application>
+
+</manifest>
